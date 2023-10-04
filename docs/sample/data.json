@@ -1,9 +1,9 @@
 {
     "meta": {
         "app_id": "org.example.same.identifier.manifest.package",
-        "app_title": "City Street Heritage",
+        "app_title": "Cine de Cine",
         "version": 1,
-        "updated": "2022-09-26",
+        "updated": "2023-10-04",
         "source_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/data.json",
         "matomo_base_url": "https://matomo.pbest.me/matomo.php?idsite=1&rec=1",        
         "marketplace_url": ""
@@ -15,7 +15,7 @@
                     "brand": "#B11623",
                     "complementary": "#FAFAFA"
                 },
-                "repository_url": "https://github.com/ow2-quick-app-initiative/poi-quick-app/tree/main/docs/country/city",
+                "repository_url": "https://github.com/fergodani/Hackathon_LightApps/blob/main/docs/sample/data.json",
                 "text_info": "This app is created by locals and experts. As you can see, it's also free of charge. Please let us know if you want to contribute with your experience, enrich the content, correct inaccuracies, or submit pictures.",
                 "text_acknowledge": "This quick app is an open-source project powered by open data and enriched by the community. Most of the information was extracted from Wikidata, OpenStreetMaps, and other public sources. You can find inaccuracies, so we apologize in advance.",
                 "text_feedback": "Please let us know if you want to contribute with your experience, enrich the content, correct inaccuracies, or submit pictures. This app is created by locals and experts.",
@@ -24,36 +24,47 @@
             },
             "pois": [{
                     "id": "uniqueID",
-                    "lat": "50.8789629",
-                    "lon": "4.7013242",
-                    "type": "statue",
-                    "name": "My Statue",
+                    "lat": "43.421242",
+                    "lon": "-4.7555887",
+                    "type": "film",
+                    "name": "Parranda (1977)",
                     "images": [
-                        "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/images/uniqueID_1.jpg",
-                        "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/images/uniqueID_2.jpg"
+                        "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/images/parranda.jpg"
                     ],
-                    "description": "One-paragraph description",
-                    "more": "More description, if you want",
+                    "description": "Cebrián, un trabajador de los altos hornos asturianos, está detenido en el cuartel de la Guardia Civil. Allí tiene que rendir cuentas de los destrozos que él y dos amigos han causado en un día de parranda. Lo que había empezado como una juerga más, se convirtió en un delirio de violencia, alcohol y sexo. (FILMAFFINITY)",
+                    "more": "Crítica: 'Obra maestra (...) una de las provocaciones más anómalas, magnéticas y turbias que vio la Transición.'",
                     "urls": [
-                        "https://nl.wikipedia.org/wiki/De_Kotmadam_(Leuven)",
-                        "https://example.org/mypoi"
+                        "https://www.filmaffinity.com/es/film829241.html"
                     ]
                 },
                 {
                     "id": "uniqueID-2",
-                    "lat": "50.9",
-                    "lon": "4.8",
-                    "type": "statue",
-                    "name": "My Statue",
+                    "lat": "43.417007",
+                    "lon": "-4.743096",
+                    "type": "film",
+                    "name": "AOOM (1970)",
                     "images": [
-                        "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/images/uniqueID2_1.jpg",
-                        "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/images/uniqueID2_2.jpg"
+                        "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/images/aoom.jpg"
                     ],
-                    "description": "One-paragraph description",
-                    "more": "More description, if you want",
+                    "description": "Ambientada en Asturias. El actor Ristol, cansado de sí mismo y del mundo, consigue desligarse mentalmente del cuerpo que lo aprisiona... La mezcla de géneros, el humor, la tragedia y la aventura conforman un relato de amor imposible con la cámara como pincelada, según su propio director. Fue un gran fracaso comercial. (FILMAFFINITY)",
+                    "more": "Crítica: 'Obra maestra'",
                     "urls": [
-                        "https://nl.wikipedia.org/MyPoi",
-                        "https://example.org/mypoi"
+                        "https://www.filmaffinity.com/es/film426032.html"
+                    ]
+                },
+                {
+                    "id": "uniqueID-3",
+                    "lat": "43.417007",
+                    "lon": "-4.743096",
+                    "type": "film",
+                    "name": "El portero (2000)",
+                    "images": [
+                        "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/images/portero.jpg"
+                    ],
+                    "description": "A Ramiro Forteza, un portero de Primera División, los rigores de la Guerra Civil (1936-1939) y de la postguerra lo han obligado a ganarse la vida por los pueblos, desafiando a los lugareños a que le marquen goles de penalti. Una noche, llega a un pueblo asturiano y conoce a Manuela, una joven viuda con un hijo, que sobrevive cosiendo para Úrsula, la esposa de Andrade, el sargento de la Guardia Civil. Pero las exhibiciones de Forteza y su relación con Manuela atraen la atención de Andrade, que le hará una propuesta relacionada con los maquis que implicará al portero en el conflicto entre los dos bandos. (FILMAFFINITY)",
+                    "more": "Premios: 2000: Premios Goya: 2 nominaciones incluyendo mejor actor (Carmelo Gómez)",
+                    "urls": [
+                        "https://www.filmaffinity.com/es/film674146.html"
                     ]
                 }
             ]
